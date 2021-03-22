@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------
+[Inicio Header] */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #f1f2f6;
+    text-align: justify;
+}
+
+.logo {
+    display: flex;
+    margin-top: 9px;
+    margin-left: 200px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: all 0.4s ease-in;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px;
+    letter-spacing: .1em;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000;
+    transition: all 0.4s ease-in;
+}
+
+nav ul li a:hover {
+    border: 1px solid ;
+    background-color: #000;
+    color: white;
+}
+
+/* -------------
+[Section Intro] */ 
+
+.intro {
+    width: 100%;
+    height: 370px;
+    margin-top: -30px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 190px;
+    padding-bottom: 20px;
+}
+
+.intro a {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn_intro {
+    border: 3px solid #c8d6e5;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    transition: all 0.3s linear;
+}
+
+.btn_intro:hover {
+    background-color: #c8d6e5;
+    color: #000;
+}
+
+/* -----------------
+[Section Servicos] */
+
+.service {
+    width: 100%;
+    height: 620px;
+    background-color: #c8d6e5;
+}
+
+.service_title {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+}
+
+.container_services {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 940px;
+    height: 500px;
+}
+
+.btn_service {
+    margin-left: 100px;
+    padding: 10px 5px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    transition: all 0.3s linear;
+}
+
+.btn_service:hover {
+    background-color: #000;
+    color: #fff;
+}
+/*================
+[Restaurant] ==== */
+
+.service_restaurant {
+    display: block;
+    width: 315px;
+    height: 489px;
+}
+
+.service_restaurant h2 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    display: block;
+}
+
+.service_restaurant a {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.text_restaurant {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 21px;
+    width: 300px;
+}
+
+/*================
+[Lazer] ==== */
+
+.service_lazer {
+    display: block;
+    width: 315px;
+    height: 489px;
+}
+
+
+.service_lazer h2 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.service_lazer a {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.text_lazer {
+    margin-top: 10px;
+    margin-bottom: 21px;
+    width: 300px;
+}
+
+/*================
+[Eventos] ==== */
+
+.service_eventos {
+    display: block;
+    width: 315px;
+    height: 489px;
+}
+
+.service_eventos  h2 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.service_eventos a {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.text_eventos  {
+    margin-top: 10px;
+    margin-bottom: 21px;
+    width: 300px;
+}
